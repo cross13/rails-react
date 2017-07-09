@@ -1,0 +1,80 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$marketing-site-hero-height: 65vh;
+$global-width: 100%;
+
+.header-container {
+    height: 60px;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+
+    .site-name {
+        float: left;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    ul {
+        &.menu {
+            float: right;
+            li {
+                &.current {
+                    background-color: #fff;
+                    border-bottom: 2px solid #3adb76;
+                }
+            }
+        }
+    }
+}
+
+.marketing-site-hero {
+    background: url('http://cdn.wallpapersafari.com/2/53/506V7F.jpg') top right no-repeat;
+    height: $marketing-site-hero-height;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+    @media screen and (min-width: 40em) {
+        background-position: center center;
+    }
+}
+
+.marketing-site-hero-content {
+    max-width: $global-width;
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    background:rgba(0,0,0,0.5);
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    h1 {
+        font-size: 32px;
+        color: #fefefe;
+    }
+
+    p {
+        &.subheader {
+            color: #fefefe;
+        }
+    }
+
+    .button.round {
+        border-radius: 5000px;
+        text-transform: uppercase;
+        font-size: 12px;
+        margin-bottom: 0;
+
+        i {
+            padding-left: 5px;
+            font-size: 16px;
+        }
+    }
+
+    @media screen and (min-width: 40em) {
+        padding-left: 50%;
+    }
+}

@@ -1,1 +1,10 @@
-<h1>HOME<h1>
+<%= react_component('Header', {title: @headerTitle} ) %>
+<%= react_component('Hero', {
+        titlePrimary: @primaryTitle,
+        description: @description,
+        icon: @icon,
+        contactLabel: @contactLabel
+    })
+%>
+<%= react_component('Services', {title: @servicesTitle, services: @services } ) %>
+<%= react_component('Footer') %>

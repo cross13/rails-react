@@ -55,5 +55,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # React Rails
 gem "react-rails"
-
+# Mysql Driver
 gem 'mysql2'
+
+# Fonts Awesome
+gem "font-awesome-rails"
