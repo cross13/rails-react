@@ -12,6 +12,8 @@
 //
 //= require rails-ujs
 //= require turbolinks
+//= require underscore
+//= require axios
 //= require react
 //= require react_ujs
 //= require components

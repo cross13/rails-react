@@ -1,9 +1,9 @@
-<%= react_component('Header', {title: @headerTitle} ) %>
+<%= react_component('Header', {title: page_header_title, items: get_nav_menu} ) %>
 <%= react_component('Hero', {
         titlePrimary: @primaryTitle,
         description: @description,
         icon: @icon,
-        contactLabel: @contactLabel
+        contactLabel: contact_title
     })
 %>
 <%= react_component('Services', {title: @servicesTitle, services: @services } ) %>

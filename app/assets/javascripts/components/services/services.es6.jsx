@@ -21,7 +21,6 @@ class Services extends React.Component {
     }
 
     render () {
-        console.log(this.props.services)
         return (
             <section className="marketing-site-three-up">
                 <h2 className="marketing-site-three-up-headline">{this.props.title}</h2>

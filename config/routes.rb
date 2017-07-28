@@ -4,4 +4,15 @@ Rails.application.routes.draw do
   # Home
   get 'home/' => 'home#index'
 
+  # Team
+  get 'team/' => 'contact#index'
+
+  # Contact
+  get 'contact/' => 'contact#index'
+
+  # Store Contact
+  post 'contact/' => 'contact#store'
+
+  root 'home#index'
+
 end

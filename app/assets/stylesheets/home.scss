@@ -10,6 +10,8 @@ $global-width: 100%;
     padding: 10px;
     background-color: #fff;
     box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+    z-index: 10;
 
     .site-name {
         float: left;
@@ -36,6 +38,7 @@ $global-width: 100%;
     background-size: cover;
     display: flex;
     align-items: center;
+    margin-top: -10px;
 
     @media screen and (min-width: 40em) {
         background-position: center center;
